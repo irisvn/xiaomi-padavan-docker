@@ -1,6 +1,10 @@
 # xiaomi-padavan-docker
 Docker-compose for build Xiaomi Padavan Firmware
 
+### Big Thanks ####
+* https://github.com/yuos-bit/Padavan
+* Group Support: https://t.me/MiRouter4c
+
 ### Build firmware ###
 * Run Docker-compose
 ```bash
