@@ -3,7 +3,13 @@ Docker-compose for build Xiaomi Padavan Firmware
 
 ### Build firmware ###
 * Run Docker-compose
+```bash
+docker-compose up --build
+```
 * Access to container
+```bash
+docker exec -it padavan_build /bin/bash
+```
 * (Optinal) Edit config file:
 ```bash
 vim /opt/rt-n56u/trunk/configs/templates/MI-4C.config
