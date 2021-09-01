@@ -20,7 +20,7 @@ RUN echo 'en_US.UTF-8 UTF-8' > /etc/locale.gen && locale-gen
 
 ENV LANG en_US.utf8
 
-RUN git clone --depth=1 https://github.com/irisvn/Padavan.git /opt/rt-n56u
+RUN git clone --depth=1 https://github.com/irisvn/Xiaomi-Padavan.git /opt/rt-n56u
 
 RUN cd /opt/rt-n56u/toolchain-mipsel && ./clean_toolchain && ./build_toolchain
 
