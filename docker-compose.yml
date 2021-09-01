@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  padavan:
+    build: .
+    container_name: padavan_build
+    tty: true
+    stdin_open: true
+
